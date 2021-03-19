@@ -1,2 +1,2 @@
-# latex_getting_started
+# Latex Getting Started
 Guide to set up Latex and edit your first document
