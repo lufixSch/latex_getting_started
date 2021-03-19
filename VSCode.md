@@ -38,10 +38,6 @@ Nun sollte Latex mit VSCode schon funktionieren. Für das optimale Erlebnis sind
     "name": "standard",
     "tools": ["latexmk"]
   },
-  {
-    "name": "convert",
-    "tools": ["latexmk-convert"]
-  }
 ],
 "latex-workshop.latex.tools": [
   {
