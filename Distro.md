@@ -17,3 +17,4 @@ Für die Installation von TexLive kannst du der Anleitung auf der [Herstellerweb
 
 Perl ist auf Unix Betriebssystemen (Linux, MacOS) in der Regel schon installiert. Für Windows kann Strawberry Perl von der [Herstellerwebsite](https://strawberryperl.com) runtergeladen werden.
 Nach der Installation sollte sichergestellt werden, dass der Pfad zu Perl in der `PATH` Variable hinterlegt wurde. Normalerweise liegt Perl hier: `C:\Strawberry\perl\bin`
+Damit Perl in Visual Studio Code erkannt wird muss der Computer möglicherweise neu gestartet werden.
