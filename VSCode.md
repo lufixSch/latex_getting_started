@@ -23,7 +23,9 @@ Die verwendung des Latex Workshops benötigt folgende Latex Packages:
 
 - Synctex
 - Latexmk
+- Xelatex
 - ChkTex
+- Latexindent
 
 Installiere diese Pakete über deine Latex Distribution.
 
