@@ -36,6 +36,10 @@ Nun sollte Latex mit VSCode schon funktionieren. Für das optimale Erlebnis sind
 "latex-workshop.latex.recipes": [
   {
     "name": "standard",
+    "tools": ["xelatex"]
+  },
+  {
+    "name": "latexmk",
     "tools": ["latexmk"]
   },
 ],
@@ -54,11 +58,23 @@ Nun sollte Latex mit VSCode schon funktionieren. Für das optimale Erlebnis sind
     ],
     "env": {}
   },
+  {
+    "name": "xelatex",
+    "command": "xelatex",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "-output-directory=%OUTDIR%",
+      "%DOC%"
+    ],
+    "env": {}
+  },
 ],
 "latex-workshop.intellisense.package.enabled": true,
 "latex-workshop.intellisense.unimathsymbols.enabled": true,
 "latex-workshop.intellisense.update.delay": 600,
-"latex-workshop.latex.autoClean.run": "onBuilt",
+"latex-workshop.latex.autoClean.run": "never",
 "latex-utilities.liveReformat.enabled": true,
 "latex-workshop.view.pdf.viewer": "browser",
 "[latex]": {
