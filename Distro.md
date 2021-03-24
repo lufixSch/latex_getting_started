@@ -2,7 +2,7 @@
 
 Es gibt viele verschiedene Latex Distributionen.
 Die einfachste Bedienung (über ein graphisches Interface) bietet [MikTex](https://miktex.org). Ein alternatives Command Line Tool ist [TexLive](http://www.tug.org/texlive/).
-Außerdem wird für die Nutzung von Latex [Perl](https://www.perl.org) benötigt.
+[Perl](https://www.perl.org) wird nur benötigt, wenn der Compiler `latexmk` verwendet wird.
 
 ## MikTex
 
